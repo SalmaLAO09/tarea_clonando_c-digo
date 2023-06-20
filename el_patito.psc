@@ -2,7 +2,11 @@
 
 Algoritmo Promedio
 	
+	Repetir
+		
+	
 	Escribir "Ingrese la cantidad de datos:"
+	
 	Repetir
 		
 		Leer n
@@ -31,6 +35,8 @@ Algoritmo Promedio
 	prom<-acum/n
 	
 	Escribir "El promedio es: ",prom
-	
+	Escribir  "Quieres terminar s=si, n= no"
+	leer resp
+Hasta Que resp = "s"
 FinAlgoritmo
 
